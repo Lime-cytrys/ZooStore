@@ -1,0 +1,19 @@
+[{
+        "id": 1,
+        "image": "https://zoocomplex.com.ua/image/catalog/blog/article-id-555/article-id-555-01.webp",
+        "title": "Карликовий кролик",
+        "price": 1800,
+        "age": 3,
+        "live": "8-12 років",
+        "description": "Просторий вольєр • сіно без обмежень"
+    },
+    {
+        "id": 2,
+        "image": "https://www.google.com/imgres?q=%D1%85%D0%BE%D0%BC%27%D1%8F%D0%BA%20%D1%81%D0%B8%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9&imgurl=https%3A%2F%2Fzootovary.ua%2Fimages%2F14.jpg&imgrefurl=https%3A%2F%2Fzootovary.ua%2Fuk%2Fzootovary%2Fsiriiskii-hom-yak-p-4770.html%3Fsrsltid%3DAYCX9vKSTrvSGRZWDwiyfb7ijY8ooYWuk7T5pElpUFZqbJB9zKBIdB_j&docid=JViPvBQwG-SkMM&tbnid=12MFNPCNSHVrrM&vet=12ahUKEwj78M3q7YKYAxWEBxAIHYdeJx4QnPAOegQIcRAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj78M3q7YKYAxWEBxAIHYdeJx4QnPAOegQIcRAA",
+        "title": "Хом'як сирійський",
+        "price": 350,
+        "age": 8,
+        "live": "2-3 роки",
+        "description": "Живе поодинці • глибока підстилка"
+    }
+]
