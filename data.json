@@ -7,13 +7,54 @@
         "live": "8-12 років",
         "description": "Просторий вольєр • сіно без обмежень"
     },
+
     {
         "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ktjpIlqQsfiU4JlYCfejO2MmWfaPCi6aYwtmfOh36w&s=10",
+        "title": "Морська свинка",
+        "price": 850,
+        "age": 2,
+        "live": "5-8 років",
+        "description": "Потребує компанії свого виду • вітамін C"
+    },
+    
+    {
+        "id": 3,
         "image": "https://www.google.com/imgres?q=%D1%85%D0%BE%D0%BC%27%D1%8F%D0%BA%20%D1%81%D0%B8%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9&imgurl=https%3A%2F%2Fzootovary.ua%2Fimages%2F14.jpg&imgrefurl=https%3A%2F%2Fzootovary.ua%2Fuk%2Fzootovary%2Fsiriiskii-hom-yak-p-4770.html%3Fsrsltid%3DAYCX9vKSTrvSGRZWDwiyfb7ijY8ooYWuk7T5pElpUFZqbJB9zKBIdB_j&docid=JViPvBQwG-SkMM&tbnid=12MFNPCNSHVrrM&vet=12ahUKEwj78M3q7YKYAxWEBxAIHYdeJx4QnPAOegQIcRAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj78M3q7YKYAxWEBxAIHYdeJx4QnPAOegQIcRAA",
         "title": "Хом'як сирійський",
         "price": 350,
         "age": 8,
         "live": "2-3 роки",
         "description": "Живе поодинці • глибока підстилка"
+    },
+
+    {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8UPp3y4WqDoZTqmoLpCON_RAy6DkRuBtfw1kvqgpWg&s=10",
+        "title": "Папужка хвилястий",
+        "price": 700,
+        "age": 4,
+        "live": "8-15 років",
+        "description": "Компанія папужки • щоденний політ"
+    },
+
+    {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-rpvf2MF0m-E5mBb7wy0LWtwr3b8JXeOkVBAlxC25w&s=10",
+        "title": "Рибка півник",
+        "price": 280,
+        "age": 6,
+        "live": "3-5 років",
+        "description": "Від 20 л • фільтр і обігрів • самець окремо"
+    },
+
+    {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMeeLcwkrI4ZKRr64ySQSGFW2OCDFqT73RZBrgr-S9g&s=10",
+        "title": "Еублефар плямистий",
+        "price": 2400,
+        "age": 5,
+        "live": "15-20 років",
+        "description": "Тераріум із підігрівом • живі комахи"
     }
 ]
