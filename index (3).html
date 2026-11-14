@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Хвіст — Тварини</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;subset=cyrillic&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="animals">
+  <div id="site-header"></div>
+
+  <main class="wrap">
+    <nav class="crumbs" aria-label="Хлібні крихти">
+      <a href="index.html">Головна</a><i data-icon="chevron-right"></i><span aria-current="page">Тварини</span>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">01 / ВЕЛИКА ДРУЖБА ПОЧИНАЄТЬСЯ ТУТ</p>
+        <h1><span>Друзі, які</span>змінюють усе.</h1>
+        <p class="lead">Маленькі лапки — велика відповідальність. Познайомтеся з тваринами та дізнайтеся, як подарувати їм щасливий дім.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#catalog">Знайти свого друга<i data-icon="arrow-up-right"></i></a>
+          <a class="link-u" href="#guide">Як підготуватися?</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <i data-icon="paw-print"></i>
+        <div class="float f1"><i data-icon="heart"></i><span>Дружба<br>на роки</span></div>
+        <div class="float f2">Спочатку знайомство. Потім — любов.</div>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="catalog-head">
+        <h2>Знайдіть свого маленького друга</h2>
+        <p>Обирайте серцем. А ми розповімо про характер і потреби кожного.</p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Фільтри">
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">Усі тварини</button>
+        <button class="chip" type="button" data-filter="Гризуни" aria-pressed="false">Гризуни</button>
+        <button class="chip" type="button" data-filter="Птахи" aria-pressed="false">Птахи</button>
+        <button class="chip" type="button" data-filter="Рибки" aria-pressed="false">Рибки</button>
+        <button class="chip" type="button" data-filter="Рептилії" aria-pressed="false">Рептилії</button>
+      </div>
+      <div class="catalog-meta"><span id="count"></span><span class="hint">Натисніть на картку, щоб побачити деталі</span></div>
+      <div class="grid" id="products"></div>
+      <p class="catalog-note"><i data-icon="info"></i>Наявність уточнюйте перед візитом</p>
+    </section>
+
+    <section class="guide" id="guide">
+      <div class="guide-box">
+        <div class="guide-grid">
+          <div class="guide-text">
+            <p class="eyebrow">ХВІСТ ЗНАЄ / ГІД ІЗ ТУРБОТИ</p>
+            <h2>Друг — не подарунок.<br>Це частина родини.</h2>
+            <p>Ми не продаємо тварин «у кошик». Спершу допомагаємо зрозуміти їхні потреби та вашу готовність до дружби.</p>
+            <a class="btn" href="tel:+380800334567">Записатися на знайомство<i data-icon="arrow-up-right"></i></a>
+          </div>
+          <div class="guide-cards">
+            <div class="gcard">
+              <div class="ico"><i data-icon="home"></i></div>
+              <div><h3>Підготуйте простір</h3><p>Просторе житло, схованки, правильний корм і доступ до ветеринара — ще до появи нового друга.</p></div>
+            </div>
+            <div class="gcard">
+              <div class="ico"><i data-icon="message"></i></div>
+              <div><h3>Познайомтеся особисто</h3><p>У магазині розповімо про здоров’я, характер, походження та щоденний догляд.</p></div>
+            </div>
+            <div class="gcard">
+              <div class="ico"><i data-icon="calendar"></i></div>
+              <div><h3>Плануйте турботу на роки</h3><p>Обговоріть рішення з усією родиною. Дітям потрібна допомога дорослих у догляді.</p></div>
+            </div>
+          </div>
+        </div>
+        <p class="guide-note"><i data-icon="info"></i><span>Тварин не надсилаємо поштою. Передача — лише особисто повнолітньому після консультації.</span></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <dialog id="details" aria-label="Деталі"></dialog>
+</body>
+</html>
